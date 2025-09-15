@@ -30,6 +30,8 @@ The details of the model are defined in the `01_create_grid_model.ipynb` noteboo
 
 Injection of a plane wave with frequency of 1 Hz (Gaussian wavelet) will be prepared in the `02_create_source_receiver.ipynb` notebook.  receivers are placed at the surface with a spacing of 10 km (See `DATA/STATIONS`).
 
+![](./img/model3d.png)
+
 ## Generate SEM Mesh and database
 The SEM mesh is generated using the `xfwat_mesh_databases` command line tool. The mesh is created with a minimum period of 1 seconds. The parameters for the mesh generation follows the documentation of [Specfem3d](https://specfem3d.readthedocs.io/en/latest/03_mesh_generation/).
 
@@ -37,5 +39,9 @@ The SEM mesh is generated using the `xfwat_mesh_databases` command line tool. Th
 The SEM-FK simulation is run using the `xfwat_fwd_measure_adj` command line tool. The parameters are defined in `DATA/fwat_params.yml`, which follows the documentation of [SpecFWAT](https://specfwat.xumijian.me/docs/preparation/parameter).
 
 ## Visualization
-The receiver function are saved in the `fwat_data/` order by sources. The visualization of the receiver functions is done in the `05_vis.ipynb` notebook.
+The receiver function are saved in the `fwat_data/` order by sources. The raw seismograms are saved in `solver/`.
 
+The visualization of the receiver functions is done in the `05_vis.ipynb` notebook.
+
+![](./img/RF_MX.XW00_fwat.png){width=45%}
+![](./img/RF_MX.XW01_fwat.png){width=45%}
