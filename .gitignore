@@ -1,0 +1,10 @@
+*.log
+DATABASES_MPI/
+fwat_data/
+OUTPUT_FILES/
+solver/
+bin
+
+DATA/pert_model.h5
+DATA/tomo_files/tomography_model.h5
+src_rec/*_FILTERED
