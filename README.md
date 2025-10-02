@@ -43,5 +43,10 @@ The receiver function are saved in the `fwat_data/` order by sources. The raw se
 
 The visualization of the receiver functions is done in the `05_vis.ipynb` notebook.
 
-![](./img/RF_MX.XW00_fwat.png){width=45%}
-![](./img/RF_MX.XW01_fwat.png){width=45%}
+The posistion of MX.XW00 is (-10000, 0, 0) and MX.XW01 is (0, 0, 0).
+<table>
+  <tr>
+    <td><img src="./img/RF_MX.XW00_fwat.png" width="400"></td> 
+    <td><img src="./img/RF_MX.XW01_fwat.png" width="400"></td>
+  </tr>
+</table>
